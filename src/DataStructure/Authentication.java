@@ -19,10 +19,10 @@ public class Authentication {
             Scanner sc = new Scanner(System.in);
             String email = sc.next();
             char email_id = '@';
-           // char data = email.charAt(email_id);
+            //for (char data = email.charAt(email_id);
             System.out.println("Your email " + email + " has been accepted");
-        }
-    }
+
+    }}
 
     public static class Login {
         public static void loginPromt() {
@@ -30,6 +30,8 @@ public class Authentication {
         }
 
     }
+
 }
+
 
 
